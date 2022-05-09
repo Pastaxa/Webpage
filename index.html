@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="myscripts.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
@@ -11,6 +12,20 @@
             <h1 id="title">My Webpage!</h1>
             <hr id="line">
             <p>This is a webpage about <b>us (patryk and mateusz <3)</b></p>
-            <img src="walter.jpg">
+            <img id="myImg" src="walter.jpg">
+            <input type="button" onclick="changeImg()" value="Change" />
+
+
+            <script>
+                function changeImg() {
+                    var image = document.getElementById('myImg');
+                    if (image.src.match("walter.jpg")) {
+                        image.src = "minion.jpg";
+                    }
+                    else {
+                        image.src = "walter.jpg";
+                    }
+                }
+            </script>
 </body>
 </html>
