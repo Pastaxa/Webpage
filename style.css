@@ -7,8 +7,13 @@ body
 #title
 {
     text-align: center;
+    color: green;
 }
 #line
 {
     width:100%;
+}
+p
+{
+    font-size:21px;
 }
