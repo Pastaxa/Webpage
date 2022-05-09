@@ -29,3 +29,12 @@ img
     width: 45%;
     height: 45%;
 }
+.btn
+{
+    margin: auto;  
+}
+.container
+{
+    display: grid;  
+
+}
