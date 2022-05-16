@@ -29,7 +29,7 @@ function poleP()
 	a=parseFloat(a);
 	b=parseFloat(b);
 	p=a*b
-	document.getElementById("wynik2").innerHTML=("Pole wynosi " + p);
+	document.getElementById("wynik2").innerHTML=(p);
 	if (a <=0 && b <= 0)
 	{
 		document.getElementById("wynik2").innerHTML=("Błąd");
@@ -42,7 +42,7 @@ function obwodP()
 	a=parseFloat(a);
 	b=parseFloat(b);
 	p=a+b+a+b
-	document.getElementById("wynik2").innerHTML=("Obwód wynosi " + p);
+	document.getElementById("wynik2").innerHTML=(p);
 	if (a <=0 && b <= 0)
 	{
 		document.getElementById("wynik2").innerHTML=("Błąd");

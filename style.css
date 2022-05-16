@@ -18,7 +18,7 @@ body
 }
 p
 {
-    font-size:21px;
+    font-size:14px;
     text-align: center;
 }
 img
@@ -37,7 +37,17 @@ img
 {
     display: grid;  
 
+
 }
+
+table, th, td {
+    border:1px solid black;
+  }
+  th, tr
+  {
+      color:white;
+  }
+
 
 *{
     box-sizing: border-box;
