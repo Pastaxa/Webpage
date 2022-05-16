@@ -2,7 +2,7 @@ body
 {
     margin-left: 10%;
     margin-right: 10%;
-    background-color:rgb(189, 18, 52);
+    background-color:gray;
 }
 
 #title
@@ -10,7 +10,7 @@ body
     text-align: center;
     color: white;
     padding: 5px;
-    background-color:crimson;
+    background-color:rgb(160, 160, 160);
 }
 #line
 {
@@ -18,7 +18,7 @@ body
 }
 p
 {
-    font-size:14px;
+    font-size:20px;
     text-align: center;
 }
 img
@@ -97,3 +97,16 @@ table, th, td {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.flex
+{
+    display: flex;
+    /* width: 50%; */
+}
+.item2
+{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+

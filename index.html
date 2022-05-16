@@ -9,43 +9,46 @@
     <title>Document</title>
 </head>
 <body>
+            <h1 id="title">Our Webpage!</h1>
+            
 
-    <h1 id="title">Our Webpage!</h1>
-    <hr id="line">
-
-    <table style="width:100%">
-        <tr>
-          <th>Figura</th>
-          <th>Wartości</th>
-          <th>Wynik</th>
-        </tr>
-        <tr>
-          <td>Kwadrat</td>
-          <td> bok <input type="text" id="bok" placeholder="wprowadź wartość boku"><br>
+            <h1 style="text-align: center;">Figury:</h1>
+            
+            <div class="flex">
+                <div class="item2">
+            <h2>Kwadrat</h2>
+            bok <input type="text" id="bok" placeholder="wprowadź wartość boku"><br>
             <input type="button" value="pole" onclick="pole()">
-            <input type="button" value="obwód" onclick="obwod()"></td>
-          <td> <p id="wynik">Wynik: </p></td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-      </table>
-
-
-          
-           
-           
-
-            <h2>Prostokąt</h2>
+            <input type="button" value="obwód" onclick="obwod()">
+            <p id="wynik"></p>
+                </div>
+                <div class="item2">
+                    <h2>Prostokąt</h2>
             bok A <input type="text" id="bok1" placeholder="wprowadź wartość boku"><br>
             bok B <input type="text" id="bok2" placeholder="wprowadź wartość boku"><br>
             <input type="button" value="pole" onclick="poleP()">
             <input type="button" value="obwód" onclick="obwodP()">
             <p id="wynik2"></p>
-            
+                </div>
+            </div>
 
+            <div class="flex">
+                <div class="item2">
+            <h2>Trójkąt (równoboczny)</h2>
+            Podstawa <input type="text" id="pod" placeholder="wprowadź długość podstawy"><br>
+            Wysokość <input type="text" id="high" placeholder="wprowadź wartość wysokości"><br>
+            <input type="button" value="pole" onclick="poleT()">
+            <input type="button" value="obwód" onclick="obwodT()">
+            <p id="wynik3"></p>
+                </div>
+                <div class="item2">
+                    <h2>Koło</h2>
+            Promień <input type="text" id="prom" placeholder="wprowadź wartość promienia"><br>
+            <input type="button" value="pole" onclick="poleO()">
+            <input type="button" value="obwód" onclick="obwodO()">
+            <p id="wynik4"></p>
+                </div>
+            </div>
 
 
 </body>
